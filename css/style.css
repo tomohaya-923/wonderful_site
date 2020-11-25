@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bg {
+  width: 100%;
+  height: 949px;
+  background: url("../img/head_bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-bg .header-main {
+  width: 700px;
+  height: 431px;
+  background: #fff;
+  border: 6px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-bg .header-main .ttl {
+  font-size: 38px;
+  margin: 10px 0 0;
+}
+
+.header-bg .header-main .ttl-ja {
+  margin: 0 0 10px;
+}
+
+.header-bg .header-main p {
+  font-size: 22px;
+}
+
+.header-bg .header-main .yello-line {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #f9ff10));
+  background: linear-gradient(transparent 60%, #f9ff10 60%);
+}
+
+.header-bg .header-main .head-btn {
+  display: block;
+  background: #009bcf;
+  color: #fff;
+  width: 94%;
+  margin: 1em auto 1em;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1em 1em;
+  max-width: 560px;
+  border-radius: 4px;
+}
+
+.header-bg .header-main .warning {
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=style.css.map */
