@@ -82,7 +82,7 @@ body {
 
 .header-bg {
   width: 100%;
-  height: 949px;
+  height: 900px;
   background: url("../img/head_bg.jpg") no-repeat center center;
   background-size: cover;
   display: -webkit-box;
@@ -105,7 +105,7 @@ body {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: -200px 0 0 0;
+  margin: -100px 0 0 0;
 }
 
 .header-bg .header-main .ttl {
@@ -154,7 +154,7 @@ body {
 
 .main-bg {
   width: 100%;
-  height: 170px;
+  height: 100%;
   background: #000;
   color: #fff;
   padding: 140px 0 3em;
@@ -176,6 +176,35 @@ body {
   text-align: left;
   font-size: 16px;
   line-height: 1.7;
+}
+
+.img-wrapper {
+  width: 100%;
+}
+
+.img-wrapper .main-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: -380px 0 40px 0;
+  width: 100%;
+}
+
+.img-wrapper .main-img .image {
+  text-align: center;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.img-wrapper .main-img .image img {
+  width: 256px;
+  height: 256px;
+}
+
+.img-wrapper .main-img .image span {
+  color: #fff;
 }
 
 @media (max-width: 960px) {
@@ -224,10 +253,13 @@ body {
   .header-nav div {
     margin: 0 20px;
   }
+  .header-bg {
+    height: 900px;
+  }
   .header-bg .header-main {
     max-width: 95%;
     height: 610px;
-    margin: -100px 0 0 0;
+    margin: 70px 0 0 0;
   }
   .header-bg .header-main .ttl {
     font-size: 45px;
@@ -259,11 +291,39 @@ body {
     width: 92%;
   }
   .main-bg div .main-text {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    margin: 100px 0 0 0;
   }
   .main-bg div p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     line-height: 1.8;
+  }
+  .img-wrapper {
+    width: 100%;
+  }
+  .img-wrapper .main-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  .img-wrapper .main-img .image {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .img-wrapper .main-img .image img {
+    width: 350px;
+    height: 350px;
+  }
+  .img-wrapper .main-img .image span {
+    color: #fff;
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
