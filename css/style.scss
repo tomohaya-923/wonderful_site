@@ -9,7 +9,7 @@ body {
   background: rgba(255, 255, 255, 0.8);
   position: fixed;
   div {
-    max-width: 1080px;
+    max-width: 1120px;
     height: 112px;
     margin: 0 auto;
     display: flex;
@@ -18,13 +18,14 @@ body {
     ul {
       display: flex;
       align-items: center;
-      // padding: 0 20px;
+      padding: 0 40px;
       // margin: 0 20px;
       a {
         font-weight: bold;
         text-decoration: none;
         list-style: none;
         margin: 0 20px;
+        // font-size: 12px;
       }
     }
     .nav-btn {
@@ -74,6 +75,7 @@ body {
     border-radius: 20px;
     text-align: center;
     box-sizing: border-box;
+    margin: -200px 0 0 0;
     .ttl {
       font-size: 38px;
       margin: 10px 0 0;
@@ -192,7 +194,49 @@ body {
     margin: 0 20px;
   }
 
-  .header-main {
-    max-width: 95%;
+  .header-bg {
+    .header-main {
+      max-width: 95%;
+      height: 610px;
+      margin: -100px 0 0 0;
+      .ttl {
+        font-size: 45px;
+      }
+      .ttl-ja {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 30px;
+        line-height: 1.7;
+      }
+      .yello-line {
+        font-size: 35px;
+      }
+      .head-btn {
+        margin: 1em auto 0;
+        font-size: 2rem;
+        padding: 0.6em 1em;
+        width: 90%;
+      }
+      .warning {
+        margin: 40px 0 0 0;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .main-bg {
+    height: 100%;
+    // margin: 0 10px;
+    div {
+      width: 92%;
+      .main-text {
+        font-size: 2.3rem;
+      }
+      p {
+        font-size: 1.8rem;
+        line-height: 1.8;
+      }
+    }
   }
 }

@@ -12,7 +12,7 @@ body {
 }
 
 .header-nav div {
-  max-width: 1080px;
+  max-width: 1120px;
   height: 112px;
   margin: 0 auto;
   display: -webkit-box;
@@ -33,6 +33,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 40px;
 }
 
 .header-nav div ul a {
@@ -104,6 +105,7 @@ body {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: -200px 0 0 0;
 }
 
 .header-bg .header-main .ttl {
@@ -222,8 +224,46 @@ body {
   .header-nav div {
     margin: 0 20px;
   }
-  .header-main {
+  .header-bg .header-main {
     max-width: 95%;
+    height: 610px;
+    margin: -100px 0 0 0;
+  }
+  .header-bg .header-main .ttl {
+    font-size: 45px;
+  }
+  .header-bg .header-main .ttl-ja {
+    font-size: 1.2rem;
+  }
+  .header-bg .header-main p {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+  .header-bg .header-main .yello-line {
+    font-size: 35px;
+  }
+  .header-bg .header-main .head-btn {
+    margin: 1em auto 0;
+    font-size: 2rem;
+    padding: 0.6em 1em;
+    width: 90%;
+  }
+  .header-bg .header-main .warning {
+    margin: 40px 0 0 0;
+    font-size: 1.1rem;
+  }
+  .main-bg {
+    height: 100%;
+  }
+  .main-bg div {
+    width: 92%;
+  }
+  .main-bg div .main-text {
+    font-size: 2.3rem;
+  }
+  .main-bg div p {
+    font-size: 1.8rem;
+    line-height: 1.8;
   }
 }
 /*# sourceMappingURL=style.css.map */
